@@ -53,3 +53,9 @@
 
 .bulk-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 10px}.bulk-toolbar .table-meta{margin:0}.bulk-toolbar .button-row{align-items:center}td input[type=checkbox],th input[type=checkbox]{width:16px;height:16px;accent-color:#315efb;cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
 @media(max-width:760px){.bulk-toolbar{align-items:stretch}.bulk-toolbar .button-row{width:100%}.bulk-toolbar .button-row .btn{flex:1;white-space:normal}}
+
+/* Sale type selector in cart */
+.cart-controls{grid-template-columns:minmax(105px,1fr) 70px minmax(80px,1fr) auto}
+.cart-controls .cart-type-select{width:100%;min-width:0;border:1px solid #dce3ee;border-radius:8px;padding:9px 7px;background:#fff;color:#26334a;font-size:11px}
+@media(max-width:760px){.cart-controls{grid-template-columns:minmax(100px,1fr) 70px minmax(80px,1fr) auto}.cart-controls .cart-type-select{font-size:10px;padding:9px 5px}}
+@media(max-width:390px){.cart-controls{grid-template-columns:1fr 70px 1fr}.cart-controls>b{grid-column:1/-1;text-align:right;padding-bottom:0}}
