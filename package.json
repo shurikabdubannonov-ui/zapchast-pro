@@ -1,0 +1,23 @@
+{
+  "name": "zapchast-pro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "^0.468.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vitest": "latest"
+  }
+}
