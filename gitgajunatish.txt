@@ -1,0 +1,3 @@
+git add .
+git commit -m "Sayt yangilandi"
+git push origin main
